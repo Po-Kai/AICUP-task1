@@ -1,0 +1,11 @@
+使用流程(依照使用順序):
+    split_datas.ipynb -> 將原始資料分割成10-fold
+    preprocess.ipynb  -> 將資料清理、格式整理、binary
+    run.sh            -> 訓練
+
+資料夾說明：
+    datasets     -> 原始datasets
+    datasets/k10 -> 10-fold datasets
+    data_bin/k10 -> binary datasets
+    outputs      -> 存放模型與參數
+    runs         -> tensorboard log

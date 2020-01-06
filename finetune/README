@@ -1,0 +1,9 @@
+使用流程(依照使用順序):
+    preprocess.ipynb -> 將資料清理、格式整理、binary
+    run.sh           -> 訓練
+
+資料夾說明：
+    datasets -> 原始datasets
+    data_bin -> binary datasets
+    outputs  -> 存放模型與參數
+    runs     -> tensorboard log

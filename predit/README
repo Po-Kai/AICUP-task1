@@ -1,0 +1,9 @@
+使用流程(依照使用順序):
+    preprocess-for_test.ipynb  -> 將資料清理、格式整理、binary
+    predit-ensemble            -> 預測
+
+資料夾說明：
+    checkpoint   -> 放要預測用的checkpoints
+    datasets     -> 原始datasets
+    data_bin     -> binary datasets
+    results      -> 存放模型與參數

@@ -1,0 +1,15 @@
+使用流程(依照使用順序):
+    preprocess.ipynb -> 將資料合併並做清理與格式整理
+    bpe.sh -> 對資料做BPE
+    preprocess.sh -> 將資料binary化
+    run.sh -> 訓練
+    convert_all_ckpt.sh ->將所有fairseq ckpt轉換成huggingface ckpt
+	
+資料夾說明：
+	datas         -> clean and bpe datas
+    datasets      -> 原始datasets
+    data_bin      -> binary datasets
+	huggingface   -> 轉換後的huggingface ckpt
+    outputs       -> 存放模型與參數
+	roberta.large -> 原始pretrained model
+    runs          -> tensorboard log
